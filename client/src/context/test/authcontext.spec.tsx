@@ -21,7 +21,7 @@ const mockState: StateI = {
 afterAll(cleanup);
 
 describe("AuthContext", () => {
-  it("it renders success component and current user firstname on successfull login", () => {
+  it("it renders success page with current user firstname on successfull login", () => {
     render(
       <AuthStateContext.Provider value={{ state: mockState }}>
         <Success />

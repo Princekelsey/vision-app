@@ -34,3 +34,8 @@ In the project root directory, you can run the following command
 4. Run `npm run dev` command to start the server and also the front-end concurrently.
 5. In the root directory, run `npm run test` command to run all test for the server
 6. cd into client folder and run `npm run test` command to run all test for front-end.
+
+## NOTE
+
+If you change the PORT on which your server is running on from 5000, then
+cd into `client/src/config` and make sure that the PORT on the baseUrl matches the PORT on which your server is running on else API requests from the front-end to the server will not go through.

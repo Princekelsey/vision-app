@@ -1,7 +1,6 @@
 import axios, { AxiosPromise } from "axios";
+import { baseUrl } from "../../config";
 import { LoginDataI, SignUpDataI } from "../../types";
-
-const baseUrl = `http://localhost:5000`;
 
 interface RequestData {
   url: string;
