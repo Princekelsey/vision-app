@@ -83,6 +83,7 @@ const useFetch = (
     return () => {
       didCancel = true;
     };
+    // eslint-disable-next-line
   }, [url, data]);
 
   const doSend = useCallback(
