@@ -29,7 +29,7 @@ copy the environment and configuration files and enter your secret information: 
 In the project root directory, you can run the following command
 
 1. Run `npm install` command to install all server dependencies.
-2. Run `npm run client-install` command to install all front-end dependiencies.
+2. Run `npm run client-install` command to install all front-end dependencies.
 3. Run `npm run migrate` command to run database migration to setup the database schema.
 4. Run `npm run dev` command to start the server and also the front-end concurrently.
 5. In the root directory, run `npm run test` command to run all test for the server
