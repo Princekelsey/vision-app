@@ -21,8 +21,9 @@ copy the environment and configuration files and enter your secret information: 
 
 ### `
 
-cp .env.example .env <br>
-cp .ormconfig.example.json .ormconfig.json
+    cp .env.example .env
+    cp .ormconfig.example.json .ormconfig.json
+
 `
 
 ## Steps to run this project:
