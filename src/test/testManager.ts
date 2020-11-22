@@ -60,10 +60,10 @@ export class TestManager {
   private async startup(): Promise<void> {
     this._connection = await createConnection(this.options);
     this._app = new Server().app;
-    this._server = createServer(this._app).listen(env.NODE_PORT);
+    this._server = createServer(this._app).listen(env.TEST_PORT);
     this._server.on("listening", () => {
       logger.info(
-        `Server is listening on port ${env.NODE_PORT} in ${env.NODE_ENV} mode`
+        `Server is listening on port ${env.TEST_PORT} in ${env.NODE_ENV} mode`
       );
     });
   }
